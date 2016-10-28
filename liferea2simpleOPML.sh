@@ -12,7 +12,8 @@
 # Usage : ./liferea2simpleOPML.sh
 # Pour que le script fonctionne Liferea doit être installé.
 # Auteur : Cédric Goby
-# Licence : GNU General Public License, version 3 (GPL-3.0)
+# Licence : GPL-3+
+# Versioning : https://github.com/CedricGoby/rss-liferea2simpleOPML
 
 # Fichier OPML liferea
 #_feedlist_liferea="$HOME/.config/liferea/feedlist.opml"
