@@ -1,12 +1,9 @@
-# rpi-grove-dht22.py
+# rss-liferea2simpleOPML.sh
 
 ## Description
-Ce script python lit les données d'une sonde Grove DHT22 et envoie le résultat vers une base de données MySQL distante. En cas d'erreur, un email est envoyé avec la nature de l'erreur rencontrée.
 
-## Matériel utilisé
-La sonde "Grove Temperature and Humidity Sensor Pro DHT22" est connectée à un module "GrovePi+".
-
-Le module "GrovePi+" est connecté à un "Raspberry Pi 2 Model B"
+Ce script simplifie le fichier OPML de Liferea en ne gardant que les balises nécessaires pour un fichier OPML standard.
+Le fichier généré peut-être importé dans n'importe quel lecteur ou agrégateur de flux RSS, y compris Liferea.
 
 ## Licence
 GNU General Public License, version 3 (GPL-3.0)
