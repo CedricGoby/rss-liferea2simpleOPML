@@ -56,5 +56,5 @@ sed -i '/type="rule"/{N;s/\n.*//;};/type="vfolder"/d;/type="rule"/d' $_feedlist_
 sed -Ei 's/ title="[^"]*"| description="[^"]*"| id="[^"]*"| sortColumn="[^"]*"| htmlUrl="[^"]*"| updateInterval="[^"]*"| collapsed="[^"]*"| expanded="[^"]*"| type="folder"//g' $_feedlist_simple
 
 # Remplacement des caractères hexadecimaux par des caractères UTF-8
-sed -i 's/&#xE2;/â/g;s/&#xE0;/à/g;s/&#xE9;/é/g;s/&#xEA;/ê/g;s/&#xE8;/è/g;s/&#xEB;/ë/g;s/&#xEE;/î/g;s/&#xCF;/ï/g;s/&#xD4;/ô/g;s/&#x9C;/œ/g;s/&#xDB;/û/g;s/&#xF9;/ù/g;s/&#xFC;/ü/g;s/&#xE7;/ç/g;s/&#xC2;/Â/g;s/&#xC0;/À/g;s/&#xC9;/É/g;s/&#xCA;/Ê/g;s/&#xC8;/È/g;s/&#xCB;/Ë/g;s/&#xCE;/Î/g;s/&#xCF;/Ï/g;s/&#xD4;/Ô/g;s/&#x8C;/Œ/g;s/&#xDB;/Û/g;s/&#xD9;/Ù/g;s/&#xDC;/Ü/g;s/&#xC7;/Ç/g;s/&#x2013;/-/g' $_feedlist_simple
+sed -i 's/&#xE2;/â/g;s/&#xE0;/à/g;s/&#xE9;/é/g;s/&#xEA;/ê/g;s/&#xE8;/è/g;s/&#xEB;/ë/g;s/&#xEE;/î/g;s/&#xCF;/ï/g;s/&#xD4;/ô/g;s/&#x9C;/œ/g;s/&#xDB;/û/g;s/&#xF9;/ù/g;s/&#xFC;/ü/g;s/&#xE7;/ç/g;s/&#xC2;/Â/g;s/&#xC0;/À/g;s/&#xC9;/É/g;s/&#xCA;/Ê/g;s/&#xC8;/È/g;s/&#xCB;/Ë/g;s/&#xCE;/Î/g;s/&#xCF;/Ï/g;s/&#xD4;/Ô/g;s/&#xF4;/ô/g;s/&#x8C;/Œ/g;s/&#xDB;/Û/g;s/&#xD9;/Ù/g;s/&#xDC;/Ü/g;s/&#xC7;/Ç/g;s/&#x2013;/-/g' $_feedlist_simple
 
