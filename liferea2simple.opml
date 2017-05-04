@@ -2,7 +2,7 @@
 <opml version="1.0">
   <head>
     <title>SimpleOPML List Export</title>
-    <dateCreated>Thu, 04 May 2017 23:33:52 +0200</dateCreated>
+    <dateCreated>Thu, 04 May 2017 23:37:40 +0200</dateCreated>
     <ownerName>Cédric Goby</ownerName>
     <ownerEmail>cedric.goby@inra.fr</ownerEmail>
   </head>
@@ -108,8 +108,8 @@
         <outline text="Les événements d'Inria" type="rss" xmlUrl="https://www.inria.fr/actualite/agenda/(view_mode)/rss"/>
         <outline text="Les actualités d'Inria Bordeaux - Sud-Ouest" type="rss" xmlUrl="https://www.inria.fr/centre/bordeaux/actualites/(view_mode)/rss"/>
         <outline text="Les évènements d'Inria Bordeaux - Sud-Ouest" type="rss" xmlUrl="https://www.inria.fr/centre/bordeaux/agenda/(view_mode)/rss"/>
-        <outline text="Les actualités d'Inria Grenoble - Rh&#xF4;ne-Alpes" type="rss" xmlUrl="https://www.inria.fr/centre/grenoble/actualites/(view_mode)/rss"/>
-        <outline text="Les événements d'Inria Grenoble - Rh&#xF4;ne-Alpes" type="rss" xmlUrl="https://www.inria.fr/centre/grenoble/agenda/(view_mode)/rss"/>
+        <outline text="Les actualités d'Inria Grenoble - Rhône-Alpes" type="rss" xmlUrl="https://www.inria.fr/centre/grenoble/actualites/(view_mode)/rss"/>
+        <outline text="Les événements d'Inria Grenoble - Rhône-Alpes" type="rss" xmlUrl="https://www.inria.fr/centre/grenoble/agenda/(view_mode)/rss"/>
         <outline text="Les actualités d'Inria Lille - Nord Europe" type="rss" xmlUrl="https://www.inria.fr/centre/lille/actualites/(view_mode)/rss"/>
         <outline text="Les événements d'Inria Lille - Nord Europe" type="rss" xmlUrl="https://www.inria.fr/centre/lille/agenda/(view_mode)/rss"/>
         <outline text="Les actualités d'Inria Nancy - Grand-Est" type="rss" xmlUrl="https://www.inria.fr/centre/nancy/actualites/(view_mode)/rss"/>
