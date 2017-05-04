@@ -45,6 +45,9 @@ sed -i '5i \    <dateCreated>'"$(date -R)"'</dateCreated>' $_feedlist_simple
 # Fin du groupe header
 sed -i '6i \  </head>' $_feedlist_simple
 
+# Suppression des flux "PERSO"
+sed -i '/<outline title=\"PERSO\"/,/^[[:space:]]\{4\}<\/outline>/d' $_feedlist_simple
+
 # Suppression des outlines "Non lus" et "Importants"
 sed -i '/type="rule"/{N;s/\n.*//;};/type="vfolder"/d;/type="rule"/d' $_feedlist_simple
 # Suppression des balises "title","description","id","sortColumn","htmlUrl","updateInterval","collapsed", "expanded", "type="folder""
