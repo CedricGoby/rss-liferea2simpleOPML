@@ -2,7 +2,7 @@
 <opml version="1.0">
   <head>
     <title>SimpleOPML List Export</title>
-    <dateCreated>Thu, 04 May 2017 23:10:12 +0200</dateCreated>
+    <dateCreated>Thu, 04 May 2017 23:33:52 +0200</dateCreated>
     <ownerName>Cédric Goby</ownerName>
     <ownerEmail>cedric.goby@inra.fr</ownerEmail>
   </head>
@@ -66,7 +66,7 @@
       <outline text="FSF News" type="rss" xmlUrl="https://static.fsf.org/fsforg/rss/news.xml"/>
       <outline text="Framasoft - Toute l'actualité" type="rss" xmlUrl="http://rss.framasoft.org/"/>
       <outline text="L'Agenda du Libre" type="rss" xmlUrl="http://www.agendadulibre.org/events.rss"/>
-      <outline text="Open Source &#x2013; Ars Technica" type="rss" xmlUrl="http://feeds.arstechnica.com/arstechnica/open-source"/>
+      <outline text="Open Source - Ars Technica" type="rss" xmlUrl="http://feeds.arstechnica.com/arstechnica/open-source"/>
       <outline text="Opensource.com" type="rss" xmlUrl="https://opensource.com/feed"/>
       <outline text="Montpel'libre" type="rss" xmlUrl="http://montpel-libre.fr/spip.php?page=backend"/>
       <outline text="Logiciels">
@@ -99,7 +99,7 @@
       <outline text="Impression 3D">
         <outline text="Nouvel abonnement" type="rss" xmlUrl="http://www.primante3d.com/feed/"/>
       </outline>
-      <outline text="Blog &#x2013; Hackaday" type="rss" xmlUrl="https://hackaday.com/blog/feed/"/>
+      <outline text="Blog - Hackaday" type="rss" xmlUrl="https://hackaday.com/blog/feed/"/>
     </outline>
     <outline text="Sciences">
       <outline text="CERN: Updates for the general public" type="rss" xmlUrl="http://home.cern/about/updates/feed"/>
