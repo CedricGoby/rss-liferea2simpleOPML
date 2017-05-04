@@ -16,9 +16,7 @@
 # Versioning : https://github.com/CedricGoby/rss-liferea2simpleOPML
 
 # Fichier OPML liferea
-#_feedlist_liferea="$HOME/.config/liferea/feedlist.opml"
-
-_feedlist_liferea="$1"
+_feedlist_liferea="$HOME/.config/liferea/feedlist.opml"
 
 # Fichier de sortie OPML simple
 _feedlist_simple="liferea2simple.opml"
@@ -36,14 +34,18 @@ cp $_feedlist_liferea $_feedlist_simple
 sed -i '1,/<\/head>/d' $_feedlist_simple
 # Ajout de la version XML 1.0, de l'encodage UTF-8 et de la version OPML 1.0
 sed -i '1i <?xml version="1.0" encoding="UTF-8"?>\n<opml version="1.0">' $_feedlist_simple
-# Début du groupe header
+# Début du header
 sed -i '3i \  <head>' $_feedlist_simple
 # Ajout du titre
 sed -i '4i \    <title>SimpleOPML List Export</title>' $_feedlist_simple
 # Ajout de la date de modification
 sed -i '5i \    <dateCreated>'"$(date -R)"'</dateCreated>' $_feedlist_simple
-# Fin du groupe header
-sed -i '6i \  </head>' $_feedlist_simple
+# Ajout du créateur du document
+sed -i '6i \    <ownerName>Cédric Goby</ownerName>' $_feedlist_simple
+# Ajout de l'adresse email du créateur
+sed -i '7i \    <ownerEmail>cedric.goby@inra.fr</ownerEmail>' $_feedlist_simple
+# Fin du header
+sed -i '8i \  </head>' $_feedlist_simple
 
 # Suppression des flux "PERSO"
 sed -i '/<outline title=\"PERSO\"/,/^[[:space:]]\{4\}<\/outline>/d' $_feedlist_simple
