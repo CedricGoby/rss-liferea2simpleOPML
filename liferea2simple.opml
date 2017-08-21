@@ -2,7 +2,7 @@
 <opml version="1.0">
   <head>
     <title>SimpleOPML List Export</title>
-    <dateCreated>Thu, 04 May 2017 23:37:40 +0200</dateCreated>
+    <dateCreated>Mon, 21 Aug 2017 20:26:09 +0200</dateCreated>
     <ownerName>Cédric Goby</ownerName>
     <ownerEmail>cedric.goby@inra.fr</ownerEmail>
   </head>
@@ -15,15 +15,26 @@
       <outline text="TechCrunch" type="rss" xmlUrl="https://feeds.feedburner.com/TechCrunch/"/>
       <outline text="GNT - actualités" type="rss" xmlUrl="http://www.generation-nt.com/export/rss.xml"/>
       <outline text="New Atlas" type="rss" xmlUrl="https://feeds.feedblitz.com/newatlas"/>
+      <outline text="MakeUseOf" type="rss" xmlUrl="http://www.makeuseof.com/feed/"/>
+      <outline text="Eric Kranich" type="rss" xmlUrl="https://erickranich.wordpress.com/feed/"/>
+      <outline text="Flux général Developpez" type="rss" xmlUrl="https://www.developpez.com/index/rss"/>
+      <outline text="Agrotic">
+        <outline text="AFIA - Informatique Agricole" type="rss" xmlUrl="http://www.informatique-agricole.org/feed/"/>
+      </outline>
     </outline>
     <outline text="Sécurité informatique">
+      <outline text="Logiciels">
+        <outline text="Tails - News" type="rss" xmlUrl="https://tails.boum.org/news/index.en.rss"/>
+        <outline text="VeraCrypt" type="rss" xmlUrl="https://veracrypt.codeplex.com/project/feeds/rss"/>
+        <outline text="KeePassX" type="rss" xmlUrl="https://www.keepassx.org/feed"/>
+      </outline>
       <outline text="Blogs">
+        <outline text="LinuxSecurity.com" type="rss" xmlUrl="http://www.linuxsecurity.com/static-content/linuxsecurity_hybrid.rss"/>
         <outline text="Lexsi Security Hub" type="rss" xmlUrl="https://www.lexsi.com/securityhub/feed/"/>
         <outline text="Data Security Breach" type="rss" xmlUrl="http://www.datasecuritybreach.fr/feed/"/>
         <outline text="ZATAZ" type="rss" xmlUrl="https://www.zataz.com/feed/"/>
         <outline text="cyberland.centerblog.net - Les derniers articles publiés" type="rss" xmlUrl="http://cyberland.centerblog.net/rss.rss"/>
         <outline text="DZone Security Zone" type="rss" xmlUrl="http://feeds.dzone.com/security"/>
-        <outline text="The Register" type="atom" xmlUrl="http://www.theregister.co.uk/headlines.atom"/>
         <outline text="Krebs on Security" type="rss" xmlUrl="https://krebsonsecurity.com/feed/"/>
         <outline text="Securelist - Information about Viruses, Hackers and Spam" type="rss" xmlUrl="https://securelist.com/feed/"/>
         <outline text="Naked Security" type="rss" xmlUrl="https://nakedsecurity.sophos.com/feed/"/>
@@ -39,12 +50,19 @@
         <outline text="LinuxSecurity.com - Security Advisories" type="rss" xmlUrl="http://www.linuxsecurity.com/static-content/linuxsecurity_advisories.rss"/>
         <outline text="Threatpost | Web security" type="rss" xmlUrl="http://threatpost.com/category/web-security/feed"/>
         <outline text="Threatpost | Vulnerabilities" type="rss" xmlUrl="http://threatpost.com/category/vulnerabilities/feed"/>
-        <outline text="Check Point Update Services Advisories" type="rss" xmlUrl="http://www.checkpoint.com/defense/advisories/public/smartdefense_atomz.xml"/>
         <outline text="Full Disclosure" type="rss" xmlUrl="http://seclists.org/rss/fulldisclosure.rss"/>
         <outline text="SecurityFocus Vulnerabilities" type="rss" xmlUrl="http://www.securityfocus.com/rss/vulnerabilities.xml"/>
+        <outline text="Microsoft Security Content: Comprehensive Edition" type="rss" xmlUrl="https://technet.microsoft.com/en-us/security/rss/comprehensive/"/>
+        <outline text="National Vulnerability Database" type="rss" xmlUrl="https://nvd.nist.gov/download/nvd-rss.xml"/>
+        <outline text="Check Point Update Services Advisories" type="rss" xmlUrl="https://www.checkpoint.com/defense/advisories/public/smartdefense_atomz.xml"/>
+        <outline text="SecuriTeam" type="rss" xmlUrl="http://www.securiteam.com/securiteam.rss"/>
+        <outline text="Exploit-DB Updates" type="rss" xmlUrl="https://www.exploit-db.com/rss.xml"/>
       </outline>
       <outline text="Sites officiels">
         <outline text="Agence nationale de la sécurité des systèmes d'information" type="rss" xmlUrl="http://www.ssi.gouv.fr/feed/actualite/"/>
+      </outline>
+      <outline text="Secteur privé">
+        <outline text="CICS, Conseil des Industriels de la confiance et de la sécurité" type="rss" xmlUrl="https://www.cics-org.fr/feed/"/>
       </outline>
     </outline>
     <outline text="Vie privée">
@@ -54,29 +72,52 @@
       <outline text="RSS - Actualité CNIL.fr" type="rss" xmlUrl="https://www.cnil.fr/fr/rss.xml"/>
     </outline>
     <outline text="Linux">
+      <outline text="[RSS/Feed] nixCraft: Linux Tips, Hacks, Tutorials, And Ideas In Blog Format" type="atom" xmlUrl="https://www.cyberciti.biz/atom/atom.xml"/>
       <outline text="Linuxtoday.com" type="rss" xmlUrl="https://feeds.feedburner.com/linuxtoday/linux"/>
       <outline text="Linux.com - All Content" type="rss" xmlUrl="https://www.linux.com/feeds/all-content"/>
       <outline text="Debian News" type="rss" xmlUrl="https://www.debian.org/News/news"/>
       <outline text="LinuxFr.org : les dépêches" type="atom" xmlUrl="https://linuxfr.org/news.atom"/>
+      <outline text="nixcraftcom" type="atom" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCrinGwmzp-LNcfvDeoBLAYQ"/>
     </outline>
     <outline text="Logiciel libre">
       <outline text="AFUL - Communiqués et nouvelles" type="rss" xmlUrl="https://aful.org/rss"/>
       <outline text="April" type="rss" xmlUrl="http://www.april.org/fr/rss.xml"/>
       <outline text="CNLL" type="rss" xmlUrl="http://www.cnll.fr/feed"/>
       <outline text="FSF News" type="rss" xmlUrl="https://static.fsf.org/fsforg/rss/news.xml"/>
+      <outline text="Free Software Directory - New" type="rss" xmlUrl="https://directory.fsf.org/wiki/Special%3AAsk/-5B-5BSubmitted-20date%3A%3A+-5D-5D/mainlabel=/limit=50/order=descending/sort=Submitted-20date/offset=0/format=rss/searchlabel=New-20packages-20RSS-20feed/title=Free-20Software-20Directory/description=Recent-20updates-20to-20Free-20Software-20Directory-20(directory.fsf.org)"/>
+      <outline text="Free Software Directory - Updates" type="rss" xmlUrl="https://directory.fsf.org/wiki/Special%3AAsk/-5B-5BLast-20review-20date%3A%3A+-5D-5D/mainlabel=/limit=50/order=descending/sort=Last-20review-20date/offset=0/format=rss/searchlabel=Recent-20updates-20RSS-20feed/title=Free-20Software-20Directory/description=Recent-20updates-20to-20Free-20Software-20Directory-20(directory.fsf.org)"/>
       <outline text="Framasoft - Toute l'actualité" type="rss" xmlUrl="http://rss.framasoft.org/"/>
       <outline text="L'Agenda du Libre" type="rss" xmlUrl="http://www.agendadulibre.org/events.rss"/>
       <outline text="Open Source - Ars Technica" type="rss" xmlUrl="http://feeds.arstechnica.com/arstechnica/open-source"/>
       <outline text="Opensource.com" type="rss" xmlUrl="https://opensource.com/feed"/>
       <outline text="Montpel'libre" type="rss" xmlUrl="http://montpel-libre.fr/spip.php?page=backend"/>
-      <outline text="Logiciels">
-        <outline text="Tails - News" type="rss" xmlUrl="https://tails.boum.org/news/index.en.rss"/>
+      <outline text="NoobsLab | Ubuntu/Linux News, Reviews, Tutorials, Apps" type="rss" xmlUrl="https://feeds.feedburner.com/noobslab"/>
+      <outline text="Desktop">
+        <outline text="LZone Blog" type="rss" xmlUrl="http://feeds.feedburner.com/LifereaBlog"/>
+        <outline text="gpodder" type="rss" xmlUrl="https://www.freelists.org/feed/gpodder"/>
+        <outline text="GNOME Wiki!" type="rss" xmlUrl="https://wiki.gnome.org/action/rss_rc/RecentChanges?action=rss_rc&amp;unique=1&amp;ddiffs=1"/>
+        <outline text="Geany News" type="rss" xmlUrl="https://www.geany.org/Main/HomePage?action=blogrss"/>
+        <outline text="Planet Pidgin" type="rss" xmlUrl="http://planet.pidgin.im/rss20.xml"/>
+        <outline text="Press Releases - The Document Foundation Blog" type="rss" xmlUrl="https://blog.documentfoundation.org/blog/category/press-releases/feed/"/>
+        <outline text="The Document Foundation Blog" type="rss" xmlUrl="https://blog.documentfoundation.org/feed/"/>
+        <outline text="Nabble - OpenSCAD" type="atom" xmlUrl="http://forum.openscad.org/OpenSCAD-ft1.xml"/>
+        <outline text="GIMP" type="atom" xmlUrl="https://www.gimp.org/feeds/atom.xml"/>
+        <outline text="FileZilla News" type="atom" xmlUrl="https://filezilla-project.org/newsfeed.php"/>
+        <outline text="Chromium Blog" type="atom" xmlUrl="https://blog.chromium.org/atom.xml"/>
+        <outline text="Remmina" type="rss" xmlUrl="http://www.remmina.org/wp/feed/"/>
+        <outline text="VideoLAN project - News feed" type="rss" xmlUrl="https://images.videolan.org/videolan-news.rss"/>
+        <outline text="puddletag news feed" type="rss" xmlUrl="http://docs.puddletag.net/rss.xml"/>
+        <outline text="RStudio Blog" type="rss" xmlUrl="https://blog.rstudio.com/index.xml"/>
+        <outline text="The R Journal" type="atom" xmlUrl="https://journal.r-project.org/rss.atom"/>
+      </outline>
+      <outline text="Serveur">
+        <outline text="Mahara Community - News - All posts" type="atom" xmlUrl="https://mahara.org/interaction/forum/atom.php?type=f&amp;id=1"/>
       </outline>
     </outline>
     <outline text="OpenData">
       <outline text="Dernières réutilisations" type="atom" xmlUrl="http://www.data.gouv.fr/fr/reuses/recent.atom"/>
       <outline text="Derniers jeux de données" type="atom" xmlUrl="http://www.data.gouv.fr/fr/datasets/recent.atom"/>
-      <outline text="Montpellier OpenData" type="rss" xmlUrl="http://data.montpellier3m.fr/?q=flux-rss-donnees.xml"/>
+      <outline text="Open Data - Montpellier Méditerranée Métropole - La démarche &#xAB; Open Data &#xBB; mutualisée de Montpellier Méditerranée Métropole" type="rss" xmlUrl="https://data.montpellier3m.fr/rss.xml"/>
     </outline>
     <outline text="Commons">
       <outline text="Wikimédia France" type="rss" xmlUrl="https://www.wikimedia.fr/feed/"/>
@@ -86,7 +127,9 @@
       <outline text="Xonay Labs | Michael Teeuw" type="rss" xmlUrl="http://michaelteeuw.nl/rss"/>
       <outline text="LABSud" type="rss" xmlUrl="https://www.labsud.org/feed/"/>
       <outline text="Makery" type="rss" xmlUrl="http://www.makery.info/feed/"/>
-      <outline text="Ordinateurs mono-cartes">
+      <outline text="Blog - Hackaday" type="rss" xmlUrl="https://hackaday.com/blog/feed/"/>
+      <outline text="Recent research notes on PublicLab.org" type="rss" xmlUrl="https://publiclab.org/feed.rss"/>
+      <outline text="Ordinateurs mono-carte">
         <outline text="Raspberry Pi" type="rss" xmlUrl="https://www.raspberrypi.org/feed/"/>
         <outline text="Raspberry Pi France" type="rss" xmlUrl="http://www.raspberrypi-france.fr/feed/"/>
         <outline text="Framboise 314, le Raspberry Pi à la sauce française&#x2026;." type="rss" xmlUrl="https://feeds.feedburner.com/framboise314?format=xml"/>
@@ -99,7 +142,6 @@
       <outline text="Impression 3D">
         <outline text="Nouvel abonnement" type="rss" xmlUrl="http://www.primante3d.com/feed/"/>
       </outline>
-      <outline text="Blog - Hackaday" type="rss" xmlUrl="https://hackaday.com/blog/feed/"/>
     </outline>
     <outline text="Sciences">
       <outline text="CERN: Updates for the general public" type="rss" xmlUrl="http://home.cern/about/updates/feed"/>
@@ -190,6 +232,9 @@
         <outline text="Interstices RSS" type="rss" xmlUrl="https://interstices.info/plugins/IntersticesV2/jsp/feed/Rss2.jsp?id=c_13634"/>
         <outline text="Science Etonnante" type="rss" xmlUrl="https://sciencetonnante.wordpress.com/feed/"/>
         <outline text="Passeur de Sciences" type="rss" xmlUrl="http://passeurdesciences.blog.lemonde.fr/feed/"/>
+        <outline text="Videosciences" type="rss" xmlUrl="http://videosciences.cafe-sciences.org/feed/"/>
+        <outline text="L'Esprit Sorcier" type="rss" xmlUrl="https://www.lespritsorcier.org/feed/"/>
+        <outline text="Le blog de Florence Porcel" type="rss" xmlUrl="http://www.florenceporcel.com/feed/"/>
       </outline>
       <outline text="Podcasts">
         <outline text="La méthode scientifique" type="rss" xmlUrl="http://radiofrance-podcast.net/podcast09/rss_14312.xml"/>
@@ -201,9 +246,19 @@
         <outline text="Podcast Science" type="rss" xmlUrl="http://feeds.feedburner.com/PodcastScience"/>
         <outline text="Les années lumière" type="rss" xmlUrl="http://feeds.feedburner.com/lesanneeslumiere"/>
       </outline>
+      <outline text="Podcasts vidéo">
+        <outline text="ScienceEtonnante" type="atom" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCaNlbnghtwlsGF-KzAFThqA"/>
+        <outline text="e-penser" type="atom" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCcziTK2NKeWtWQ6kB5tmQ8Q"/>
+        <outline text="Mickaël Launay" type="atom" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC4PasDd25MXqlXBogBw9CAg"/>
+        <outline text="DirtyBiology" type="atom" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCtqICqGbPSbTN09K1_7VZ3Q"/>
+        <outline text="Biologie Tout Compris" type="atom" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC9JQQll_r5k1O_Y18ymTp4g"/>
+        <outline text="Florence Porcel" type="atom" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC9HapjjoLqdDNwKEWQRaiyA"/>
+        <outline text="Espace des sciences" type="atom" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UClDk0iyj99stPxD9NQUaVSQ"/>
+      </outline>
     </outline>
     <outline text="Enseignement Supérieur et Recherche">
       <outline text="RENATER" type="rss" xmlUrl="https://www.renater.fr/backend.php?id_rubrique="/>
+      <outline text="Nouvel abonnement" xmlUrl="http://resinfo.org/spip.php?page=backend"/>
       <outline text="Administrations">
         <outline text="MESR" type="rss" xmlUrl="http://www.enseignementsup-recherche.gouv.fr/rid1271/rss-toute-l-actualite-m.e.s.r.-en-un-flux.rss"/>
         <outline text="EDUCSOL Actualités" type="rss" xmlUrl="http://eduscol.education.fr/rid271/toute-l-actualite-du-site.rss?xtdate=20160926"/>
@@ -212,11 +267,16 @@
         <outline text="EDUCSOL Actualités du numérique" type="rss" xmlUrl="http://eduscol.education.fr/rid1121/actualites-du-numerique.rss?xtdate=20160926"/>
         <outline text="EDUCSOL Agenda" type="rss" xmlUrl="http://eduscol.education.fr/rid321/l-agenda-du-site.rss?xtdate=20160926"/>
       </outline>
+      <outline text="Mooc">
+        <outline text="Derniers cours publiés sur FUN" type="rss" xmlUrl="https://www.fun-mooc.fr/cours/feed/"/>
+        <outline text="Nouvel abonnement" xmlUrl="https://www.fun-mooc.fr/news/feed/"/>
+      </outline>
     </outline>
-    <outline text="Mooc">
-      <outline text="Derniers cours publiés sur FUN" type="rss" xmlUrl="https://www.fun-mooc.fr/cours/feed/"/>
-      <outline text="Nouvel abonnement" xmlUrl="https://www.fun-mooc.fr/news/feed/"/>
+    <outline text="Calcul scientifique">
+      <outline text="France Grilles" type="rss" xmlUrl="http://www.france-grilles.fr/fr/feed/"/>
+      <outline text="CINES" type="rss" xmlUrl="https://www.cines.fr/feed/"/>
+      <outline text="HPC@LR" type="rss" xmlUrl="https://hpc-lr.umontpellier.fr/feed/"/>
+      <outline text="South Green" type="rss" xmlUrl="http://www.southgreen.fr/rss.xml"/>
     </outline>
-    <outline text="A classer"/>
   </body>
 </opml>
