@@ -47,8 +47,8 @@ sed -i '7i \    <ownerEmail>cedric.goby@inra.fr</ownerEmail>' $_feedlist_simple
 # Fin du header
 sed -i '8i \  </head>' $_feedlist_simple
 
-# Suppression des flux "PERSO"
-sed -i '/<outline title=\"PERSO\"/,/^[[:space:]]\{4\}<\/outline>/d' $_feedlist_simple
+# Exemple de suppression d'un flux personnalisé nommé "PERSO"
+#sed -i '/<outline title=\"PERSO\"/,/^[[:space:]]\{4\}<\/outline>/d' $_feedlist_simple
 
 # Suppression des outlines "Non lus" et "Importants"
 sed -i '/type="rule"/{N;s/\n.*//;};/type="vfolder"/d;/type="rule"/d' $_feedlist_simple
