@@ -44,8 +44,12 @@ sed -i '5i \    <dateCreated>'"$(date -R)"'</dateCreated>' $_feedlist_simple
 sed -i '6i \    <ownerName>Cédric Goby</ownerName>' $_feedlist_simple
 # Ajout de l'adresse email du créateur
 sed -i '7i \    <ownerEmail>cedric.goby@inra.fr</ownerEmail>' $_feedlist_simple
+# Ajout de l'adresse web du créateur
+sed -i '8i \    <ownerId>https://gitlab.com/CedricGoby/opml</ownerId>' $_feedlist_simple
+# Ajout de l'adresse web du format OPML
+sed -i '9i \    <docs>http://dev.opml.org/spec2.html</docs>' $_feedlist_simple
 # Fin du header
-sed -i '8i \  </head>' $_feedlist_simple
+sed -i '10i \  </head>' $_feedlist_simple
 
 # Exemple de suppression d'un flux personnalisé nommé "PERSO"
 #sed -i '/<outline title=\"PERSO\"/,/^[[:space:]]\{4\}<\/outline>/d' $_feedlist_simple
